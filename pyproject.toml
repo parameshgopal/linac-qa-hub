@@ -1,0 +1,10 @@
+[project]
+name = "linac-qa-hub"
+version = "0.1.0"
+description = "Linac QA analytics: trend/drift detection, tolerance checks, auto-generated QA reports (research tool, not for clinical use)"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "matplotlib"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

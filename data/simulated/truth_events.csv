@@ -1,0 +1,5 @@
+machine,parameter,kind,start_day,rate,start_date,first_tolerance_breach,first_action_breach,size
+LA1,output_dev_pct,drift,100,0.025,2025-05-26,2025-07-18,2025-10-14,
+LA2,kv_shift_mm,drift,140,0.014,2025-07-21,2025-11-13,2025-12-23,
+LA1,mlc_picket_max_mm,step,190,,2025-09-29,2025-09-29,2025-09-29,0.75
+LA2,laser_offset_mm,spike,80,,2025-04-28,2025-04-28,2025-04-28,2.6

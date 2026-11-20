@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+pytest
+# added in later weeks:
+# pymedphys      (gamma analysis)
+# streamlit      (dashboard)
+# reportlab      (PDF report)

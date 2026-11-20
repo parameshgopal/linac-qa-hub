@@ -1,0 +1,33 @@
+# ILLUSTRATIVE tolerance and action levels for the simulator and demo.
+# They are placeholders, NOT clinical values. Before using real data, replace
+# them with the values from AAPM TG-142 (and its updates) and your clinic's own
+# QA policy.
+#
+# tolerance = warning level (investigate soon)
+# action    = action level (stop and act)
+# Both are compared against the absolute value of the measurement.
+
+[output_dev_pct]
+description = "Daily output constancy, % deviation from baseline"
+tolerance = 2.0
+action = 3.0
+
+[symmetry_dev_pct]
+description = "Beam symmetry, % deviation from baseline"
+tolerance = 1.0
+action = 2.0
+
+[mlc_picket_max_mm]
+description = "MLC picket-fence maximum leaf position error, mm"
+tolerance = 0.8
+action = 1.0
+
+[laser_offset_mm]
+description = "Room laser alignment offset, mm"
+tolerance = 1.0
+action = 1.5
+
+[kv_shift_mm]
+description = "kV imaging-to-isocenter shift, mm"
+tolerance = 1.5
+action = 2.0

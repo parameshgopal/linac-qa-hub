@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+# Never commit patient data or real clinic QA records
+data/real/
+data/raw/
+*.dcm
